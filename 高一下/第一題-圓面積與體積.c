@@ -1,4 +1,4 @@
-/*²Ä¤@ÃD-¶ê­±¿n»PÅé¿n*/
+/*ç¬¬ä¸€é¡Œ-åœ“é¢ç©èˆ‡é«”ç©*/
 #include <stdio.h>
 #define pi 3.14
 float area3(float r,float h);
@@ -7,7 +7,7 @@ int main(){
     float r,h;
     for(int i=1;i<=10;i++){
         scanf("%f %f",&r,&h);
-        printf("¶ê¬WÅéÅé¿n%.2f\n",area3(r,h));
+        printf("åœ“æŸ±é«”é«”ç©%.2f\n",area3(r,h));
     }
 	return 0;
 }
@@ -18,3 +18,4 @@ float area2(float r){
     return r*r*pi;
 }
 
+//2020-6-26
