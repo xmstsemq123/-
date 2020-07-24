@@ -1,4 +1,4 @@
-/*�ĤG�D-����*/
+/*²Ä¤GÃD-²³¼Æ*/
 #include <stdio.h>
 int main(){
     int number[10000],number_com[10000];
@@ -35,3 +35,5 @@ int main(){
     printf("%d",max_arr);
 	return 0;
 }
+
+//2019-6-26
